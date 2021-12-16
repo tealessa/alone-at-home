@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    color: #A66400;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font: 500;
+    cursor:default;
+}
+/*header*/
+header{
+    background-color:#FFB440 ;
+    display: flex;
+}
+div{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+a{
+    text-decoration: none;
+    color: currentColor;
+    margin: auto;
+    
+}
+#logo_link{
+    margin: 0;
+}
+.logo_img{
+    margin-top: 10px;
+    margin-left: 50px;
+    padding-top: 10px;
+    transition-duration:0.5s ;
+
+}
+.text_logo {
+    margin-top: 45px;
+    margin-left: 30px;
+}
+.logo_img:hover{
+    width: 110px;
+}
+.panel{
+    display: flex;
+    margin:auto;  
+}
+.panel_button{
+    text-align: center;
+    border: 2px solid #A66400;
+    border-radius: 3px;
+    width: 200px;
+    display: flex;
+    background-color: #FFC873;
+    margin-left: 50px;
+    margin-right: 50px;
+    transition-duration: 0.5s;
+
+}
+.panel_button:hover{
+    background-color:  #A66400;
+    color:#FFC873;
+    
+}
+.button_text{
+    margin: auto;
+    font-size: 18px;
+    font-weight: 600;
+
+    
+}
+/*section*/
+section{
+    background-color: #ec8e00;
+    color:white;
+}
+.booking{
+    background-color: #FF9A00;
+    background-size: cover;
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+    
+}
+.booking_step{
+    margin-left: 50px; 
+}
+li{
+    width: 80%;
+    list-style-type: none;
+    border-right: 4px solid #FF9A00;
+    border-left: 4px solid #FF9A00;
+    width:fit-content;
+    transition-duration: 0.5s;
+}
+li:hover{
+    border-right: 4px solid #A66400;
+    border-left: 4px solid #A66400;
+    width:fit-content;
+
+    
+}
+
+.AboutUs{   
+    background-color: #FF9A00;
+    background-size: cover;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.main{
+    line-height : 2;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+.name{
+    width: 100%;
+    height: 100%;
+    background: url(img/Rolling-Homes-2.jpg) 100% ;
+    background-repeat:no-repeat ;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+.name:hover{
+    color: black;
+}
+.motto{
+    font-size: 30px;
+}
+.mainImg{
+    width: 70%;
+    transition-duration: 0.5s;
+}
+.mainImg:hover{
+    width: 80%;
+}
+.images{
+    display: flex;
+}
+.img_card{
+    border: 2px solid #A66400;
+    border-radius: 3px;
+}
+
+.list_of_required_items{
+    line-height : 2;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.feedback_blocks{
+    display: table;
+    align-items: center;
+
+}
+.blocks{
+    display: table-row;
+}
+.feedback{
+    justify-content: center;
+    display:inline-block;
+    border: 2px solid #A66400;
+    border-radius: 3px;
+    width:35%;
+    margin: 20px;
+    background-color: #FFC873;
+    color: #A66400;
+    transition-duration: 0.5s;
+}
+.feedback:hover{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.feedback_image{
+    margin:10px;
+    border: 10px solid #FFB440;
+    border-radius:50% ;
+    transition-duration: 0.5s;
+}
+.feedback_image:hover{
+    border: 15px solid #f5ab3d;
+}
+.feeback_text{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#feedback3{
+    margin-top: 5px;
+}
+
+.search{
+    background-color: #FF9A00;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;  
+}
+.search_panel{
+    margin-bottom: 25px;
+    border: 3px solid #FFC873;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.search_margin{
+    margin-top: 50px;
+}
+.search_btn{
+    border: 3px solid;
+    padding:10px 40px ;
+    transition-duration: 0.5s;
+
+}
+.search_input{
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*footer*/
+footer{
+    background-color: #FFB440;
+    display: flex;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+.phone_number{
+    justify-content: left;
+    margin: auto;
+    cursor: pointer;
+}
+.links_block{
+    justify-content: right;  
+    margin: auto;
+    cursor: pointer;
+}
+.link:hover{
+    color: white;
+}
